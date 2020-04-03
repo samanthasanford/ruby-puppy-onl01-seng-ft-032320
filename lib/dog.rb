@@ -6,7 +6,7 @@ class Dog
 # you are trying to store in your @@all array
 
 def initialize(name)
-  @name = self.name
+  @name = name
   save
 end
 # save should push self into @@all
