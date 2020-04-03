@@ -2,7 +2,7 @@ class Dog
  @@all = Array.new
   attr_accessor :name
 
-# use the self keyword inside the #initialize method to refer to the new dog
+# use the self keyword(name?) inside the #initialize method to refer to the new dog
 # you are trying to store in your @@all array
 
 def initialize(name)
