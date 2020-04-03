@@ -1,7 +1,7 @@
 class Dog
 
   attr_accessor :name
-  
+
 @@all = Array.new
 
 def initialize(name)
