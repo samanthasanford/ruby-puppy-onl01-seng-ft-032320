@@ -1,5 +1,5 @@
 class Dog
-@@all = []
+@@all = Array.new
   attr_accessor :name
 
 
