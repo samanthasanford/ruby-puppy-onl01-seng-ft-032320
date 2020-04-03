@@ -1,30 +1,30 @@
 class Dog
+@@all = Array.new
+
+def initialize(name)
+  @name = name
+  @@all << self
+end
+
+def name
+  @name = name
+end
+
+def save
+  @@all << self
+end
+
+def self.all
+  @@all
+end
+
+def self.clear_all
   @@all = []
+end
 
-  def save
-    @@all << self
+def self.print_all
+  @@all.each do |dog|
+    puts dog.name
   end
-
-  def name
-    @name
-  end
-
-  def intialize(name)
-    @name= name
-    save
-  end
-
-  def self.all
-    @@all
-  end
-
-  def self.clear_all
-    @@all=[]
-  end
-
-  def self.print_all
-    @@all.each do |dog|
-      puts dog.name
-    end
 end
 end
