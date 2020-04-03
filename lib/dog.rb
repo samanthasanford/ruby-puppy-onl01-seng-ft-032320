@@ -25,12 +25,8 @@ class Dog
       end
   end
 
-  def save
-    @@all
-  end
-
   def self.clear_all
-    @@all.clear()
+    @@all = []
   end
 
 end
