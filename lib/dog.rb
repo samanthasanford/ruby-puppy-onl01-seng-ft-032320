@@ -9,10 +9,6 @@ def initialize(name)
   save
 end
 
-def name
-  @name = name
-end
-
 def save
   @@all << self
 end
