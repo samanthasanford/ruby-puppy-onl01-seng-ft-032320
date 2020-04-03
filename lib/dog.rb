@@ -6,7 +6,7 @@ class Dog
   end
 
   def intialize(name)
-    @name = name
+    @name= name
     save
   end
 
